@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatTypeWeekHoro"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarTypeWeekHoro"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="@dimen/toolbar_elevation"
+            app:subtitleTextColor="@color/toolbarTextColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/container_padding"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="exampleprilognew.ru.horoscope.screen.detailhoro.DetailHoroWeekActivity">
+
+        <TextView
+            style="@style/MyTitulTextViewStyle"
+            android:id="@+id/tvTitle"
+            android:layout_marginTop="@dimen/text_horo_padding"
+            android:text="@string/week_horo_single" />
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvBiznessWeekHoro"
+            android:layout_below="@+id/tvTitle"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_bizness_horo"
+            />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvCommonWeekHoro"
+            android:layout_below="@+id/tvBiznessWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_common_horo" />
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvLoveWeekHoro"
+            android:layout_below="@+id/tvCommonWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_love_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvHealthWeekHoro"
+            android:layout_below="@+id/tvLoveWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_health_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvCarWeekHoro"
+            android:layout_below="@+id/tvHealthWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_car_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvBeautyWeekHoro"
+            android:layout_below="@+id/tvCarWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_beauty_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvEroticWeekHoro"
+            android:layout_below="@+id/tvBeautyWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_erotic_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvGoldWeekHoro"
+            android:layout_below="@+id/tvEroticWeekHoro"
+            android:transitionName="@string/transition_weekly"
+            android:text="@string/week_gold_horo" />
+
+    </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

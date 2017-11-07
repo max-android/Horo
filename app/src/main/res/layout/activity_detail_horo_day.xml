@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatDetailDayHoro"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarDetailDayHoro"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="@dimen/toolbar_elevation"
+            app:subtitleTextColor="@color/toolbarTextColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigationDailyHoro"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_navigation_bar"
+            android:elevation="@dimen/toolbar_elevation"
+            app:itemIconTint="@drawable/navigation_item_background_colors"
+            app:itemBackground="@color/bottomNavigationViewColor"
+            app:itemTextColor="@drawable/navigation_item_background_colors"
+             />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/component_padding">
+            <ImageView
+                android:id="@+id/imageDaily"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:transitionName="@string/transition_daily"
+                android:elevation="@dimen/image_elevation"
+                android:layout_gravity="center"
+                android:adjustViewBounds="false"
+                />
+            <TextView
+                style="@style/MyTextViewStyle"
+                android:id="@+id/tvDayHoroscope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/type_horo_day_title" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+

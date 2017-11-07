@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Гороскопы</string>
+    <string name="daily_horo">Ежедневные гороскопы</string>
+    <string name="daily_common_horo">ОБЩИЙ ГОРОСКОП</string>
+    <string name="daily_erotic_horo">ЭРОТИЧЕСКИЙ ГОРОСКОП</string>
+    <string name="daily_anti_horo">АНТИГОРОСКОП</string>
+    <string name="daily_bizness_horo">БИЗНЕС ГОРОСКОП</string>
+    <string name="daily_health_horo">ГОРОСКОП ЗДОРОВЬЯ</string>
+    <string name="daily_cook_horo">КУЛИНАРНЫЙ ГОРОСКОП</string>
+    <string name="daily_love_horo">ЛЮБОВНЫЙ ГОРОСКОП</string>
+    <string name="daily_mob_horo">МОБИЛЬНЫЙ ГОРОСКОП</string>
+
+    <string name="week_horo">Еженедельные гороскопы</string>
+    <string name="week_horo_single">Еженедельный гороскоп</string>
+    <string name="week_current_horo">ГОРОСКОП НА ТЕКУЩУЮ НЕДЕЛЮ</string>
+    <string name="week_last_horo">ГОРОСКОП НА ПРОШЛУЮ НЕДЕЛЮ</string>
+
+    <string name="sign_zodiac">Знак зодиака</string>
+
+    <string name="week_common_horo">ОБЩИЙ ГОРОСКОП</string>
+    <string name="week_bizness_horo">БИЗНЕС - ГОРОСКОП</string>
+    <string name="week_love_horo">ЛЮБОВНЫЙ ГОРОСКОП</string>
+    <string name="week_health_horo">ГОРОСКОП ЗДОРОВЬЯ</string>
+    <string name="week_car_horo">АВТОМОБИЛЬНЫЙ ГОРОСКОП</string>
+    <string name="week_beauty_horo">ГОРОСКОП КРАСОТЫ</string>
+    <string name="week_erotic_horo">ЭРОТИЧЕСКИЙ ГОРОСКОП</string>
+    <string name="week_gold_horo">ЮВЕЛИРНЫЙ ГОРОСКОП</string>
+
+    <string name="select_sign">Выберите знак для прогноза</string>
+
+    <string name="type_horo_week_title">еженедельный гороскоп</string>
+    <string name="type_horo_day_title">ежедневный гороскоп</string>
+
+    <string name="type_horo_week_title2">гороскоп на</string>
+
+
+    <string name="yesterday">вче</string>
+    <string name="today">сег</string>
+    <string name="tomorrow">зав</string>
+    <string name="tomorrow2">посл</string>
+
+
+    <string name="transition_daily">transitionDaily</string>
+    <string name="transition_weekly">transitionWeekly</string>
+
+    <string name="not_network">Сбой подключения - подключите интернет</string>
+    <string name="error_connect">Ошибка сети - попробуйте снова или перезагрузитесь</string>
+
+</resources>

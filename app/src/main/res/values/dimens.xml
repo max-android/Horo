@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="titul_text_horo_padding">8dp</dimen>
+    <dimen name="text_horo_padding">16dp</dimen>
+
+    <dimen name="container_padding">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="main_text_size">20sp</dimen>
+    <dimen name="component_padding">16dp</dimen>
+    <dimen name="height_navigation_bar">56dp</dimen>
+    <dimen name="zodiac_padding">24dp</dimen>
+
+
+    <dimen name="navi_elevation">8dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="snack_elevation">6dp</dimen>
+
+    <dimen name="text_press_elevation">2dp</dimen>
+    <dimen name="image_elevation">2dp</dimen>
+    <dimen name="press_padding">4dp</dimen>
+    <dimen name="press_margin">4dp</dimen>
+    <dimen name="titul_margin">8dp</dimen>
+    <dimen name="shadow_radius">8dp</dimen>
+
+
+
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+
+
+    <dimen name="text_list_padding">20dp</dimen>
+    <dimen name="text_snack">8sp</dimen>
+
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatHoro"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarHoro"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="@dimen/toolbar_elevation"
+            app:titleTextColor="@color/toolbarTextColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/container_padding"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="exampleprilognew.ru.horoscope.screen.detailhoro.DetailHoroDayActivity">
+
+        <TextView
+            style="@style/MyTitulTextViewStyle"
+            android:id="@+id/tvDailyHoro"
+            android:layout_marginTop="@dimen/text_horo_padding"
+            android:text="@string/daily_horo" />
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvCommonHoro"
+
+            android:layout_below="@+id/tvDailyHoro"
+            android:text="@string/daily_common_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvEroticHoro"
+            android:layout_below="@+id/tvCommonHoro"
+            android:text="@string/daily_erotic_horo" />
+
+
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvAntiHoro"
+            android:layout_below="@+id/tvEroticHoro"
+            android:text="@string/daily_anti_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvBiznessHoro"
+            android:layout_below="@+id/tvAntiHoro"
+            android:text="@string/daily_bizness_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvHealthHoro"
+            android:layout_below="@+id/tvBiznessHoro"
+            android:text="@string/daily_health_horo" />
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvCookHoro"
+            android:layout_below="@+id/tvHealthHoro"
+            android:text="@string/daily_cook_horo" />
+
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvLoveHoro"
+            android:layout_below="@+id/tvCookHoro"
+            android:text="@string/daily_love_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvMobHoro"
+            android:layout_below="@+id/tvLoveHoro"
+            android:text="@string/daily_mob_horo" />
+
+        <TextView
+            style="@style/MyTitulTextViewStyle"
+            android:id="@+id/tvWeekHoro"
+            android:layout_below="@+id/tvMobHoro"
+            android:text="@string/week_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvWeekCurHoro"
+            android:layout_below="@+id/tvWeekHoro"
+            android:text="@string/week_current_horo" />
+        <TextView
+            style="@style/MyTextViewPressStyle"
+            android:id="@+id/tvWeekLastHoro"
+            android:layout_below="@+id/tvWeekCurHoro"
+            android:text="@string/week_last_horo" />
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
